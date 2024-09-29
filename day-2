@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main() {
+    int num1, num2;  // variables to store the input numbers
+
+    // input the two numbers
+    printf("Enter the first number: ");
+    scanf("%d", &num1);
+
+    printf("Enter the second number: ");
+    scanf("%d", &num2);
+
+    // calculate the results
+    int sum = num1 + num2;
+    int difference = num1 - num2;
+    int product = num1 * num2;
+
+    // print the results
+    printf("Addition: %d + %d = %d\n", num1, num2, sum);
+    printf("Subtraction: %d - %d = %d\n", num1, num2, difference);
+    printf("Multiplication: %d * %d = %d\n", num1, num2, product);
+
+    return 0;
+}
