@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    float side, area;
+
+    // Prompt the user to enter the length of the side of the square
+    printf("Enter the length of the side of the square: ");
+    scanf("%f", &side);
+
+    // Calculate the area of the square
+    area = side * side;
+
+    // Display the area
+    printf("The area of the square is: %.2f\n", area);
+
+    return 0;
+}
